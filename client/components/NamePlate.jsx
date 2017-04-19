@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NamePlate = (props) => {
+const NamePlate = props => {
   return (
     <div className='dog'>
       <div className='dog-name-plate'>

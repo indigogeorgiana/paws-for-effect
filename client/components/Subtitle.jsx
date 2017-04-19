@@ -1,5 +1,5 @@
 import React from 'react'
 
-const SubTitle = props => <h2>{props.text}</h2>
+const Subtitle = props => <h2>{props.text}</h2>
 
-export default SubTitle
+export default Subtitle

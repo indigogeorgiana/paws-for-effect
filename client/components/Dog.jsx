@@ -6,9 +6,9 @@ import Pic from './Pic'
 const Dog = props => {
   return (
     <div className='dog-wrapper'>
-      <NamePlate name={this.props.name} breed={this.props.breed} superpower={this.props.superpower} />
+      <NamePlate name={props.name} breed={props.breed} superpower={props.superpower} />
       <div className='dog-pic'>
-        <Pic image={this.props.image} alt={this.props.name} />
+        <Pic image={props.image} alt={props.name} />
       </div>
     </div>
   )
