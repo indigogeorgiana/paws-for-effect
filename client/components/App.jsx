@@ -22,20 +22,23 @@ const dogs = [
   }
 ]
 
-function getDog (dog, i) {
+function showDog (dog) {
   return (
-    <Dog key={i} name={dog.name} breed={dog.breed} superpower={dog.superpower} image={dog.image} />
+    <Dog key={dog.name}
+      name={dog.name}
+      breed={dog.breed}
+      superpower={dog.superpower}
+      image={dog.image}
+    />
   )
 }
 
-const App = () => {
-  return (
-    <div className='container'>
-      <img className='spinner' src='images/paw.png' />
-      <Subtitle text='Canines using supercanine abilities for social good.' />
-      {dogs.map(getDog)}
-    </div>
-  )
-}
+const App = () => (
+  <div className='container'>
+    <img className='spinner' src='images/paw.png' />
+    <Subtitle text='Canines using supercanine abilities for social good.' />
+    {dogs.map(showDog)}
+  </div>
+)
 
 export default App
