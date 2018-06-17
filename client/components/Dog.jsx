@@ -9,7 +9,7 @@ const Dog = props => {
           <span className='dog-breed'>{props.breed}</span>
         </div>
         <span className='dog-superpower'>{props.superpower}</span>
-        <img className='dog-img'>{props.img} </img>
+        <img className='dog-pic' src={'/images/' + props.imageName} />
       </div>
     </div>
   )
