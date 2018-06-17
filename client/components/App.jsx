@@ -6,8 +6,8 @@ const App = () => (
   <div className='container'>
     <img className='spinner' src='/images/paw.png' />
     <Subtitle text='These are some dogs that idk do things i guess'/>
-    <Dog name='Nert' breed='Dalmation' superpower='Just being like super cool' />
-    <Dog name='Atomic' breed='Sheepadoodle' superpower='teleport' />
+    <Dog name='Nert' breed='greyhound' superpower='Just being like super cool' image= './images/greyhound.png' />
+    <Dog name='Atomic' breed='bull-terrier' superpower='teleport' />
   </div>
 
 )
